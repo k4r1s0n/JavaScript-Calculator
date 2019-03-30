@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+@font-face {
+	font-family: "Digital";
+	src: url("digital-7.ttf");
+}
+
+body {
+	background: url("https://img3.goodfon.ru/original/1920x1080/a/be/mlechnyy-put-zvezdy-noch-2102.jpg");
+}
+
+h1 {
+	margin-top: 50px;
+	color: white;
+	font-family: 'Audiowide', cursive;
+}
+
+#calculator{
+	margin-top: 50px;
+}
+
+#display {
+	background-color: #cc66ff;
+	color: white;
+	font-family: 'Digital';
+	font-size: 30px;
+	padding: 5px;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#buttons {
+	background-color: blueviolet;
+	width: 250px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+a {
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.bigButton {
+	width: 88px;
+}
+
+#zero{
+	margin-left: -2px;
+}
